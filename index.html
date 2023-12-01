@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Inscripcción 2022-2023</h1>
+    <form action="">
+        
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input for="text" id="nombre" name="nombre" required>
+            </p>
+    
+            <p>
+                <label for="apellido">Apellidos</label>
+                <input type="text" id="apellido" required size="30">
+            </p>
+
+            <p>
+                <label for="born">Fecha de nacimiento:</label>
+                <input type="date" id="born" max="2003-00-00" >
+            </p>
+
+            <p>
+                <label for="">DNI</label>
+                <input type="text" id="DNI" required maxlength="9" size="10">
+            </p>
+
+            <p>
+                <label for="">Teléfono</label>
+                <input type="text" id="telf" size="12">
+            </p>
+
+            <p>
+                <label for="">Provincia</label>
+                <input type="text" id="provincia" placeholder="Comunidad de Madrid" >
+            </p>
+
+            <p>
+                <label for="">Selecciona una fotogrfia para tu perfil:</label>
+            </p>
+            <p>
+                <input type="file">
+            </p>    
+                
+            
+
+            <p>
+                <label for="">Adjuntar archivos obligatorios:</label>
+                <input type="file" multiple>
+            </p>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Datos Curso de Inscripcción</legend>
+
+            <p>
+                <label for="">Curso</label>
+                <input type="radio" name="primero" value="Primero">Primero
+                <input type="radio" name="segundo" value="Segundo">Segundo
+            </p>
+
+            <p>
+                <label for="">Ciclo Formativo</label>
+                <select name="CicloForm" id="ciclo_forma" aria-placeholder="Elige">
+                    <option value="" disabled selected hidden> Elige un ciclo formativo:</option>
+                    <optgroup label="Grado Superior">
+                        <option value="admin_finan">Administracion y Finanzas</option>
+                        <option value="admin_sis">Administracion de Sistemas Informáticos en Red</option>
+                        <option value="des_aplic_multi">Desarrollo de Aplicaciones Multiplataforma</option>
+                        <option value="des_aplic_web">Desarrollo de Aplicaciones Web</option>
+                    </optgroup>
+
+                    <optgroup label="Grado Medio">
+                        <option value="ges_admin" disabled>Gestion Administrativa</option>
+                        <option value="sis_mic_redes">Sistemas Microinformaticos y Redes</option>
+                    </optgroup>
+
+                    <optgroup label="Grado Básico">
+                        <option value="inf_oficina">Informática de Oficina</option>
+                        <option value="info_com">Inforática y comunicaciones</option>
+                        <option value="serv_admin" disabled>Servicios administrativos</option>
+
+
+                    </optgroup>
+
+                </select>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Acceso al Campus</legend>
+
+            <p>
+                <label for="">Email:</label>
+                <input type="text" name="correo" id="correo" placeholder="correo@empresa.com">
+            </p>
+
+            <p>
+                <label for="">Contraseña</label>
+                <input type="text" name="password" id="password">
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Observaciones </legend>
+
+            
+             <textarea name="" id="" cols="60" rows="5"></textarea>
+            
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Protección de datos</legend>
+            <p>
+                <input type="checkbox" name="declara" id="declara" required>
+                <label for="">Declaro haber leído y aceptar las condiciones generales del programa y la normativa
+                    sobre la proteccion de datos.
+                </label>
+            </p>
+            
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Inscribirme">
+            <input type="submit" value="Resetear datos">
+        </p>
+        
+
+
+
+    </form>
+</body>
+</html>
