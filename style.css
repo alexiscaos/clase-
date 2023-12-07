@@ -1,0 +1,57 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+fieldset{
+    background-color: #e5ecfa;
+    border:3px solid #4472C4;
+}
+legend{
+    background-color: black;
+    border: SOLID   #4472C4;
+    color: orange;
+    padding: 0.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
+}
+
+
+label{
+    color:  #4472C4;
+}
+
+.cursiva{
+    font-style: italic;
+    font-weight: bolder;
+}
+.subrayado{
+    background-color: yellow;
+}
+
+select{
+    border:solid #4472C4;
+}
+table{
+    border:solid #4472C4;
+    color: #4472C4;
+    margin-left: 21%;
+}
+td{
+    height: 25px;
+    background-color: white;
+}
+th{
+    background-color: #e5ecfa;
+}
+
+input[type=submit]{
+    background-color: #e5ecfa;
+    border:solid #4472C4;
+    border-radius: 4px;
+}
+img{
+    width:20%;
+    margin-left: 40%;
+}
